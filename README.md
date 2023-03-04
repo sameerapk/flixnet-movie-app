@@ -1,6 +1,8 @@
 The application features a contemporary and user-friendly interface that has been developed using React and the MUI framework. The architecture comprises several components that function in tandem to deliver the requisite functionality. The key components are as follows:
 
     App: This serves as the primary component responsible for rendering the entire application.
+    Main: Acts like a container to hold various sub components like search bar , card list and card info.
+    Sidebar: This component is responsible for displaying information about the user and displays links to navigate to various sections of the application.
     Search: This component handles the search bar rendering and search functionality.
     CardsList: This component is responsible for rendering the movie cards and forwarding the selected movie to the CardDetails component.
     CardDetails: This component is responsible for rendering the movie details upon clicking and forwarding the information to the CardInfo component for display.
