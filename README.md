@@ -1,8 +1,12 @@
-The application has a modern and user-friendly interface built using React and the MUI framework.The architecture consists of multiple components that work together to deliver the required functionality. The main components are:
+The application features a contemporary and user-friendly interface that has been developed using React and the MUI framework. The architecture comprises several components that function in tandem to deliver the requisite functionality. The key components are as follows:
 
-    App: The main component that renders the entire application.
-    Search: The component that renders the search bar and handles the search functionality.
-    CardsList: The component that renders the movie cards and passes the selected movie to the CardDetails component.
-    CardDetails: The component that renders the movie details on click and passes on information to CardInfo component to display the movie details.
-    CardInfo: The component that renders the individual movie details info with buttons to play and add to watchlist.
-    Themeing: Code to hold the theme of the application 
+    App: This serves as the primary component responsible for rendering the entire application.
+    Search: This component handles the search bar rendering and search functionality.
+    CardsList: This component is responsible for rendering the movie cards and forwarding the selected movie to the CardDetails component.
+    CardDetails: This component is responsible for rendering the movie details upon clicking and forwarding the information to the CardInfo component for display.
+    CardInfo: This component renders the individual movie details along with buttons to play and add to the watchlist.
+    Theming: This section of the code contains the theme of the application.
+
+Please follow this link for a brief demo of the application: https://user-images.githubusercontent.com/13768494/222879747-31064995-efa5-4db9-bad7-9f04ebcd7e5a.mp4
+
+The aforementioned is the production build of the application, which can be accessed at http://192.168.0.105:58061/.
